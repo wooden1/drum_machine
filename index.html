@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Drum machine</title>
+</head>
+<body>
+   
+  <main id="container">
+    <div id="display">
+    <div class="switch">
+      <label for="" class="rocker">
+        <input type="checkbox" checked>
+        <span class="switch-left">ON</span>
+        <span class="switch-right">OFF</span>
+      </label>
+    </div>
+    <div id="drum-machine" class="drmpds">
+        
+      <div class="drum-pad one" data-key="81">
+        <span class="key">Q</span>
+      </div>
+      <div class="drum-pad two" data-key="87">
+        <span class="key">W</span>
+      </div>
+      <div class="drum-pad three" data-key="69">
+        <span class="key">E</span>
+      </div>
+      <div class="drum-pad four" data-key="65">
+        <span class="key">A</span>
+      </div>
+      <div class="drum-pad five" data-key="83">
+        <span class="key">S</span>
+      </div>
+      <div class="drum-pad six" data-key="68">
+        <span class="key">D</span>
+      </div>
+      <div class="drum-pad seven" data-key="90">
+        <span class="key">Z</span>
+      </div>
+      <div class="drum-pad eight" data-key="88">
+        <span class="key">X</span>
+      </div>
+      <div class="drum-pad nine" data-key="67">
+        <span class="key">C</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<audio data-key="81" src="sounds/tom.wav" class="clip" id="Q"></audio>
+<audio data-key="87" src="sounds/ride.wav" class="clip" id="W"></audio>
+<audio data-key="69" src="sounds/tink.wav" class="clip" id="E"></audio>
+<audio data-key="65" src="sounds/kick.wav" class="clip" id="A"></audio>
+<audio data-key="83" src="sounds/openhat.wav" class="clip" id="S"></audio>
+<audio data-key="68" src="sounds/clap.wav" class="clip" id="D"></audio>
+<audio data-key="90" src="sounds/boom.wav" class="clip" id="Z"></audio>
+<audio data-key="88" src="sounds/hihat.wav" class="clip" id="X"></audio>
+<audio data-key="67" src="sounds/snare.wav" class="clip" id="C"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>
