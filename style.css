@@ -184,8 +184,10 @@ input:checked:focus+.switch-left+.switch-right {
   color: #333;
 }
 #display{
-  border: 2em outset #5c5c5c;
-  border-radius: 3px;
+  border: 2rem outset #5c5c5c;
+  border-left: 2em inset #5c5c5c;
+  border-bottom: 2em inset #5c5c5c;
+  border-radius: 4px;
   width: 100%;
   background-color: #a1a7a7;
 }
@@ -209,7 +211,7 @@ input:checked:focus+.switch-left+.switch-right {
 background: #1f1d1d;
 text-align: center;
 font-size: 1.4rem;
-/* box-shadow: 6px 6px 6px #444444; */
+/* box-shadow: 6px 6px 6px #5c5c5c; */
 border: .5rem outset var(--border);
 transition: ease-in 0.1s;
 }
@@ -235,33 +237,33 @@ transition: ease-in 0.1s;
 }
 .two {
   grid-area: w;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .three {
   grid-area: e;
-  box-shadow: -1px 6px 6px 6px #444444;
+  box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .four {
   grid-area: a;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .five{
   grid-area: s;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .six{
   grid-area: d;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .seven {
   grid-area: z;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .eight{
   grid-area: x;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
 .nine{
   grid-area: c;
-   box-shadow: -1px 6px 6px 6px #444444;
+   box-shadow: -1px 6px 6px 6px #5c5c5c;
 }
